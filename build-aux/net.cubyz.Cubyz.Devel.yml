@@ -1,8 +1,11 @@
-id: net.cubyz.Cubyz
+id: net.cubyz.Cubyz.Devel
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: launch.sh
+rename-desktop-file: net.cubyz.Cubyz.desktop
+rename-icon: net.cubyz.Cubyz
+desktop-file-name-suffix: ' (Devel)'
 
 finish-args:
   - --share=ipc
